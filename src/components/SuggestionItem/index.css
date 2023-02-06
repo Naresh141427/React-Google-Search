@@ -1,0 +1,25 @@
+.suggestion-container {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.suggestion {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+  .suggestion {
+    font-size: 13px;
+  }
+}
+.suggestion-button {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
